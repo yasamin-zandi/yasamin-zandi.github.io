@@ -1,0 +1,19 @@
+@use "../abstracts/" as ab;
+
+
+.mb{
+    
+    &--s{
+        margin-bottom: ab.$small-margin;
+    }
+    &--m{
+        margin-bottom: ab.$medium-margin;
+    }
+    
+}
+
+.mt{
+    &--m{
+        margin-top: ab.$medium-margin;
+    }
+}
